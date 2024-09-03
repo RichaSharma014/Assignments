@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "a1f40c38-e528-4f66-a118-082915966806",
+		"name": "Amazon.in",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14531047"
+	},
+	"item": [
+		{
+			"name": "Amazon product search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.amazon.in/s?k=titan+watch&crid=2M5D1WQY4SRDX&sprefix=%2Caps%2C468&ref=nb_sb_ss_recent_1_0_recent",
+					"protocol": "https",
+					"host": [
+						"www",
+						"amazon",
+						"in"
+					],
+					"path": [
+						"s"
+					],
+					"query": [
+						{
+							"key": "AWSAccessKeyId",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "Signature",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "k",
+							"value": "titan+watch"
+						},
+						{
+							"key": "crid",
+							"value": "2M5D1WQY4SRDX"
+						},
+						{
+							"key": "sprefix",
+							"value": "%2Caps%2C468"
+						},
+						{
+							"key": "ref",
+							"value": "nb_sb_ss_recent_1_0_recent"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
